@@ -1,0 +1,144 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Poppins";
+    src: url("../assets/fontz/Poppins-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../assets/font/Poppins-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "SpaceMono";
+    src: url("../assets/font/SpaceMono-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "SpaceMono";
+    src: url("../assets/font/SpaceMono-Italic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "SpaceMono";
+    src: url("../assets/font/SpaceMono-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "SpaceMono";
+    src: url("../assets/font/SpaceMono-BoldItalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 700;
+}
+
+.menu-item-18,
+.menu-item-19,
+.menu-item-20,
+#footer-content a,
+.copyright-text {
+    font-family: 'SpaceMono', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 10;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content/Box */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+
+
+/* The Close Button */
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* Footer */
+
+#footer {
+    background-color: white;
+    padding: 20px 0;
+}
+
+#footer .containerFooter {
+    display: flex;
+    justify-content: center;
+    /* Centrer horizontalement */
+    align-items: center;
+}
+
+#footer-content {
+    text-align: center;
+    /* Centrer le contenu du footer */
+}
+
+#footer-content a {
+    margin: 0 20px;
+    /* Espacement entre les liens */
+}
+
+.copyright-text {
+    margin: 0 20px;
+    display: inline;
+    /* Afficher la mention sur la même ligne */
+}
+
+
+/* Hero */
+
+.hero {}
