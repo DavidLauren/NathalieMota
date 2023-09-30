@@ -30,7 +30,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	</div><!-- #page -->
 
 <!-- Modale -->
-	<?php get_template_part('template_part/modal'); ?>
+<?php get_template_part('template_part/modal'); ?>
 
 	<?php 
 	astra_body_bottom();    
