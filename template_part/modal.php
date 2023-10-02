@@ -15,7 +15,13 @@
   <!-- Modal content -->
   <div class="modal-content">
     <span class="close">x</span>
-    <p>Some text in the Modal..</p>
+    <img src=".../assets/img/Contact-header.png" alt="Image de formulaire de contact">
+    
+    <!--ajout code court contact-form -->
+    <?php echo do_shortcode('[wpforms id="25"]'); ?>
+    
+    
+    
   </div>
 
 </div>
